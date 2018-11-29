@@ -68,7 +68,7 @@ namespace AccessingData
                            
                             while (dr.Read())
                             {
-                                demoList.Items.Add(string.Format("{0} \t {1} \t {2}", dr["CompanyName"], dr["ContactName"], dr["ContactTitle"]));
+                                demoList.Items.Add(string.Format("{0} \t   {1} \t   {2}", dr["CompanyName"], dr["ContactName"], dr["ContactTitle"]));
                             }
                         }
                     }
@@ -106,6 +106,9 @@ namespace AccessingData
 
                     // Εναλλάκτικά θα μπορούσαμε να γεμίσουμε το Listbox
                     // παίρνοντας μία μία τις γραμμές του πίνακα και προσθέτοντάς τες
+
+
+
 
                     //For Each dr As DataRow In _
                     // ds.Tables("ProductInfo").Rows
